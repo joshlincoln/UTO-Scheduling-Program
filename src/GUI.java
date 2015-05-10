@@ -29,6 +29,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -42,6 +44,8 @@ import javax.swing.JTextArea;
 import javax.swing.JScrollPane;
 import javax.swing.UIManager;
 
+import java.awt.Choice;
+
 public class GUI {
 
 	private JFrame frmTcScheduler;
@@ -49,16 +53,16 @@ public class GUI {
 	private JTextField textField_shortestShift;
 	private JTextField textField_shiftClose;
 	private JTextField textField_longestShift;
-	public static float totalWorkableHours;
-	public static float totalRemainingWorkableHours;
-	public static float totalScheduledHours;
-	public static float totalHoursNotScheduled;
-	ArrayList<Student> TCs = new ArrayList<Student>();
-	ArrayList<Office> Offices = new ArrayList<Office>();
-	public static ArrayList<String> offices = new ArrayList<String>();
-	Schedule Schedule;
-	public static JTextArea textArea_Output = new JTextArea();
-	public static String[] timeSlot = { "6:00 AM", "6:30 AM", "7:00 AM",
+	private static float totalWorkableHours;
+	private static float totalRemainingWorkableHours;
+	private static float totalScheduledHours;
+	private static float totalHoursNotScheduled;
+	private static ArrayList<Student> TCs = new ArrayList<Student>();
+	private static ArrayList<Office> Offices = new ArrayList<Office>();
+	public static ArrayList<String> officeNames = new ArrayList<String>();
+	private static Schedule Schedule;
+	private static JTextArea textArea_Output = new JTextArea();
+	private static String[] timeSlot = { "6:00 AM", "6:30 AM", "7:00 AM",
 			"7:30 AM", "8:00 AM", "8:30 AM", "9:00 AM", "9:30 AM", "10:00 AM",
 			"10:30 AM", "11:00 AM", "11:30 AM", "12:00 PM", "12:30 PM",
 			"1:00 PM", "1:30 PM", "2:00 PM", "2:30 PM", "3:00 PM", "3:30 PM",
@@ -119,8 +123,17 @@ public class GUI {
 		textArea_Output.setEditable(false);
 		textArea_Output.setLineWrap(true);
 		textArea_Output.setWrapStyleWord(true);
+
+		try {
+			readData();			
+		} catch (Exception e) {
+			e.printStackTrace();
+			textArea_Output
+					.setText("Existing data not found, select data for schedule... \n");
+		}
+
 		textArea_Output
-				.setText("1. Select the directory of the TC availability sheets. \n2. Select the directory of the office requirements. \n3. Select the TC configuration .xlsx file. \n4. Type in the parameters of the schedule and click configure. \n5. Click generate schedule, and navigate to the directory to view schedule .txt file. ");
+				.append("1. Select the directory of the TC availability sheets. \n2. Select the directory of the office requirements. \n3. Select the TC configuration .xlsx file. \n4. Type in the parameters of the schedule and click configure. \n5. Click generate schedule, and navigate to the directory to view schedule .txt file. ");
 		textArea_Output.append("\n");
 		textArea_Output.setBounds(299, 177, 78, 128);
 		panel1.add(textArea_Output);
@@ -135,7 +148,9 @@ public class GUI {
 				JFileChooser availChooser = new JFileChooser();
 				availChooser
 						.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-				availChooser.setCurrentDirectory(new File ("C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles"));
+				availChooser
+						.setCurrentDirectory(new File(
+								"C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles"));
 				int returnValue = availChooser.showOpenDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					File path = availChooser.getSelectedFile();
@@ -147,6 +162,7 @@ public class GUI {
 					try {
 						TCs = createStudents(availDirectory);
 						createTCConfig(TCs);
+						createAvail(TCs);
 					} catch (Exception e) {
 						e.printStackTrace();
 						textArea_Output.append("Invalid Input");
@@ -164,7 +180,9 @@ public class GUI {
 			public void actionPerformed(ActionEvent reqClicked) {
 				JFileChooser reqChooser = new JFileChooser();
 				reqChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-				reqChooser.setCurrentDirectory(new File ("C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles"));
+				reqChooser
+						.setCurrentDirectory(new File(
+								"C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles"));
 				int returnValue = reqChooser.showOpenDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					File selectedFile = reqChooser.getSelectedFile();
@@ -190,7 +208,9 @@ public class GUI {
 		btnTcConfiguration.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent reqClicked) {
 				JFileChooser configChooser = new JFileChooser();
-				configChooser.setCurrentDirectory(new File ("C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles"));
+				configChooser
+						.setCurrentDirectory(new File(
+								"C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles"));
 				int returnValue = configChooser.showOpenDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					File selectedFile = configChooser.getSelectedFile();
@@ -311,6 +331,7 @@ public class GUI {
 				determineManagementNeeds(TCs, Offices);
 				try {
 					createSchedule(Schedule, TCs, Offices);
+					writeData(TCs, Offices, Schedule);
 				} catch (Exception e) {
 					e.printStackTrace();
 					textArea_Output.append("Invalid inptut");
@@ -348,32 +369,104 @@ public class GUI {
 	 * Saving and reading student objects after open/close of program
 	 */
 
-	// @SuppressWarnings({ "resource", "null" })
-	// public static ArrayList<Student> CheckForExistingStudents() throws
-	// FileNotFoundException, IOException{
-	// ArrayList<Student> existingStudents = null;
-	//
-	// try{
-	// ObjectInputStream studentRead = new ObjectInputStream(new
-	// FileInputStream("students.txt"));
-	// existingStudents.add((Student) studentRead.readObject());
-	// }
-	// catch(Exception e) {
-	// e.printStackTrace();
-	// }
-	// return existingStudents;
-	// }
-	//
-	// public static void WriteStudents(ArrayList<Student> TCs) throws
-	// FileNotFoundException, IOException {
-	// ObjectOutputStream studentWrite = new ObjectOutputStream(new
-	// FileOutputStream("students.txt"));
-	// for(Student TC : TCs) {
-	// studentWrite.writeObject(TC);
-	// }
-	// studentWrite.flush();
-	// studentWrite.close();
-	// }
+	public static void readData() throws IOException {
+		textArea_Output.setText("Existing data found, reading... \n");
+		try {
+			TCs = checkForExistingStudents();
+			Offices = checkForExistingOffices();
+			Schedule = checkForExistingSchedule();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static ArrayList<Student> checkForExistingStudents()
+			throws FileNotFoundException, IOException {
+		
+		try {
+			ObjectInputStream studentRead = new ObjectInputStream(
+					new FileInputStream("students.bin"));
+			@SuppressWarnings("unchecked")
+			ArrayList<Student> existingStudents = (ArrayList<Student>) studentRead.readObject();
+			studentRead.close();
+			TCs = existingStudents;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return TCs;
+	}
+
+	public static ArrayList<Office> checkForExistingOffices()
+			throws FileNotFoundException, IOException {
+		 new ArrayList<Office>();
+
+		try {
+			ObjectInputStream officeRead = new ObjectInputStream(
+					new FileInputStream("offices.bin"));
+			@SuppressWarnings("unchecked")
+			ArrayList<Office> existingOffices =(ArrayList<Office>)officeRead.readObject();
+			officeRead.close();
+			Offices = existingOffices;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return Offices;
+	}
+
+	public static Schedule checkForExistingSchedule() {
+		try {
+			ObjectInputStream scheduleRead = new ObjectInputStream(
+					new FileInputStream("schedule.bin"));
+			Schedule existingSchedule = (Schedule) scheduleRead.readObject();
+			scheduleRead.close();
+			Schedule = existingSchedule;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return Schedule;
+	}
+
+	public static void writeData(ArrayList<Student> TCs,
+			ArrayList<Office> offices, Schedule schedule) throws IOException {
+		try {
+			writeStudents(TCs);
+			writeSchedule(schedule);
+			writeOffices(offices);
+			textArea_Output.append("\nData saved...");
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+			textArea_Output.append("\nError saving data...");
+		}
+
+	}
+
+	public static void writeStudents(ArrayList<Student> TCs)
+			throws FileNotFoundException, IOException {
+		ObjectOutputStream studentWrite = new ObjectOutputStream(
+				new FileOutputStream("students.bin"));
+		studentWrite.writeObject(TCs);
+		studentWrite.flush();
+		studentWrite.close();
+	}
+
+	public static void writeOffices(ArrayList<Office> offices)
+			throws IOException {
+		ObjectOutputStream officeWrite = new ObjectOutputStream(
+				new FileOutputStream("offices.bin"));
+		officeWrite.writeObject(offices);
+		officeWrite.flush();
+		officeWrite.close();
+
+	}
+
+	public static void writeSchedule(Schedule schedule) throws IOException {
+		ObjectOutputStream scheduleWrite = new ObjectOutputStream(
+				new FileOutputStream("schedule.bin"));
+		scheduleWrite.writeObject(schedule);
+		scheduleWrite.flush();
+		scheduleWrite.close();
+	}
 
 	public static Student AvailParse(File filename) throws Exception {
 
@@ -429,13 +522,19 @@ public class GUI {
 			wb.close();
 
 		}
+		return new Student(shiftAvail, name, hours);
+	}
 
-		// shiftAvail = toArrayList(shiftAvailability);
-		// print the availability grid
-		/*
-		 * for(int i = 0; i < rowNum; i++) { for(int j = 0; j < colNum-1; j++) {
-		 * System.out.print(shiftAvailability[i][j]); } System.out.println(); }
-		 */return new Student(shiftAvail, name, hours);
+	public static void createAvail(ArrayList<Student> TCs)
+			throws FileNotFoundException {
+		File availFile = new File(
+				"C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles/TCAvailability.txt");
+		PrintStream availOut = new PrintStream(new FileOutputStream(availFile));
+		System.setOut(availOut);
+
+		for (Student TC : TCs) {
+			TC.printStudentAvailability();
+		}
 	}
 
 	public static void createTCConfig(ArrayList<Student> TCs)
@@ -466,13 +565,6 @@ public class GUI {
 		ArrayList<ArrayList<Integer>> officeReq = new ArrayList<ArrayList<Integer>>();
 
 		// add days to the availability grid
-
-		// initialize array to all zeros
-		/*
-		 * for(int i = 0; i < rowNum; i++) { for(int j = 0; j < colNum; j++) {
-		 * shiftAvailability[i][j] = ""; } }
-		 */
-
 		FileInputStream fis = new FileInputStream(filename);
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		XSSFSheet ws = wb.getSheetAt(0);
@@ -488,14 +580,6 @@ public class GUI {
 				officeRequirement[i - 2][j - 1] = hours;
 			}
 		}
-
-		// officeReq = toArrayList(officeRequirement);
-
-		// print the office requirements
-		/*
-		 * for(int i = 0; i < rowNum; i++) { for(int j = 0; j <colNum; j++) {
-		 * System.out.print(officeRequirement[i][j]); } System.out.println(); }
-		 */
 		wb.close();
 		return new Office(officeReq, officeName);
 	}
@@ -513,30 +597,28 @@ public class GUI {
 
 		for (int i = 0; i < rowNum; i++) {
 			XSSFRow row = ws.getRow(i);
-				XSSFCell data = row.getCell(0);
-				XSSFCell data1 = row.getCell(1);
-				String name = getVal(data);
-				String office = getVal(data1);
-				TCconfig[i][0] = name.trim();
-				TCconfig[i][1] = office.trim();
-				
-				TCs.get(TCs.indexOf(new Student(null, name,0))).setOffice(office);;
-				} 
-			
-		
+			XSSFCell data = row.getCell(0);
+			XSSFCell data1 = row.getCell(1);
+			String name = getVal(data);
+			String office = getVal(data1);
+			TCconfig[i][0] = name.trim();
+			TCconfig[i][1] = office.trim();
 
-		
+			TCs.get(TCs.indexOf(new Student(null, name, 0))).setOffice(office);
+			;
+		}
+
 		for (int i = 0; i < rowNum; i++) {
 			if (TCconfig[i][1] != "") {
-				offices.add(TCconfig[i][1]);
+				officeNames.add(TCconfig[i][1]);
 			}
 		}
 
 		Set<String> hs = new HashSet<>();
-		hs.addAll(offices);
-		offices.clear();
-		offices.addAll(hs);
-		
+		hs.addAll(officeNames);
+		officeNames.clear();
+		officeNames.addAll(hs);
+
 		wb.close();
 	}
 
@@ -648,6 +730,15 @@ public class GUI {
 			office.printOffice();
 		}
 
+		File unScheduled = new File(
+				"C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles/UnscheduledTCs.txt");
+		PrintStream unOut = new PrintStream(new FileOutputStream(unScheduled));
+		System.setOut(unOut);
+		for (Student TC : TCs) {
+			if (TC.scheduled = false) {
+				TC.printStudentSchedule();
+			}
+		}
 	}
 
 	// determine total workable weekly hours by TCs
@@ -693,8 +784,9 @@ public class GUI {
 				for (int j = 0; j < 7; j++) {
 					if (office.officeReq.get(i).get(j) >= 0) {
 						totalHoursNotScheduled += office.officeReq.get(i)
-								.get(j) / 2;
+								.get(j);
 					}
+					totalHoursNotScheduled = totalHoursNotScheduled / 2;
 				}
 			}
 		}
@@ -705,11 +797,11 @@ public class GUI {
 		for (int i = 1; i < 37; i++) {
 			for (int j = 0; j < 7; j++) {
 				if (offices.officeReq.get(i).get(j) >= 0) {
-					hoursNotScheduled += offices.officeReq.get(i).get(j) / 2;
+					hoursNotScheduled += offices.officeReq.get(i).get(j);
 				}
 			}
 		}
-		return hoursNotScheduled;
+		return hoursNotScheduled / 2;
 	}
 
 	// determines how many TCs are needed based on the specified offices
@@ -760,32 +852,27 @@ public class GUI {
 			ArrayList<Office> offices) {
 
 		int count = TCs.size();
-
+		totalHoursNotScheduled = 0;
 		getRemainingHours(TCs);
-		getUnScheuledHours(offices);
 
-		textArea_Output.append("\n");
-		textArea_Output.append("Evaluating Schedule Efficacy...\n");
-		textArea_Output.append("\n");
+		textArea_Output.append("\nEvaluating Schedule Efficacy...\n\n");
 		textArea_Output.append("Total unscheduled desired hours for TCs: "
-				+ totalRemainingWorkableHours);
-		textArea_Output.append("\n");
+				+ totalRemainingWorkableHours + "\n");
 		textArea_Output.append("Average unscheduled hours per TC: "
-				+ (int) totalRemainingWorkableHours / count);
-		textArea_Output.append("\n");
-		textArea_Output.append("Total unscheduled hours in the offices: "
+				+ (int) totalRemainingWorkableHours / count + "\n");
+
+		for (Office office : offices) {
+			textArea_Output.append("\n" + office.name + ": ");
+			textArea_Output.append("unscheduled hours in office: "
+					+ getUnScheuledHours(office));
+			totalHoursNotScheduled += getUnScheuledHours(office);
+		}
+		textArea_Output.append("\nTotal unscheduled hours in the offices: "
 				+ totalHoursNotScheduled);
-		textArea_Output.append("\n");
 		textArea_Output
-				.append("Percentage of schedule met: "
+				.append("\nPercentage of schedule met: "
 						+ (100 - (float) ((totalHoursNotScheduled) / totalScheduledHours) * 100)
 						+ "\n");
 
-		for (Office office : offices) {
-			textArea_Output.append("\n");
-			textArea_Output.append(office.name + ": ");
-			textArea_Output.append("unscheduled hours in office: "
-					+ getUnScheuledHours(office));
-		}
 	}
 }

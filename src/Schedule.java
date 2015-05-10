@@ -1,10 +1,15 @@
 // Java File IO API
+import java.io.Serializable;
 import java.util.*;
 
 import org.apache.commons.collections4.comparators.ComparatorChain;
 
-public class Schedule {
+public class Schedule implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Fields
 	ArrayList<Student> TCs = new ArrayList<Student>();
 	ArrayList<Office> offices = new ArrayList<Office>();
@@ -230,14 +235,14 @@ public class Schedule {
 			TC.opened[day.ordinal()] = true;
 		} else if (end >= endSchedule) {
 			TC.closed[day.ordinal()] = true;
-		} else {
-			TC.opened[day.ordinal()] = false;
-			TC.closed[day.ordinal()] = false;
 		}
 		for (int i = start + 1; i <= end; i++) {
 			TC.shiftAvail.get(i).set(day.ordinal(), 0);
 			int officeReq = office.officeReq.get(i).get(day.ordinal());
 			office.officeReq.get(i).set(day.ordinal(), officeReq - 1);
+		}
+		if((TC.scheduledHours/TC.desiredHours) >= 90) {
+			TC.scheduled = true;
 		}
 	}
 
@@ -249,72 +254,32 @@ public class Schedule {
 		chain.addComparator(new CustomComparator());
 		chain.addComparator(new LongestShift());
 		Collections.sort(TCs, chain);
-		for(int i = 0; i < GUI.offices.size(); i++) {
-			if (office.name.equals(GUI.offices.get(i))) {
+		
+		// schedule special office
+		for (int i = 0; i < GUI.officeNames.size(); i++) {
+			if (office.name.equals(GUI.officeNames.get(i))) {
 				for (Student TC : Students) {
 					if (TC.getOffice().equals(office.name)) {
 						uniqueTCs.add(TC);
 					}
 				}
-				chosenTC = uniqueCase(uniqueTCs, office, day);
+				chosenTC = meetsRequirement(uniqueTCs, office, day);
 				return chosenTC;
-				
+
 			}
-			}
-				chosenTC = uniqueCase(Students, office, day);
-				// if algorithm goes day by day, need to filter unique TCs
-				// for (Student filter : Students) {
-				// if (!(filter.adminSupport == true || filter.byac290 == true
-				// || filter.cpcom140 == true || filter.LS == true || filter.SSM ==
-				// true)) {
-				// otherTCs.add(filter);
-				// }
-				// }
-//				for (Student TC : Students) {
-//					if (TC.longestShift >= shortestShift
-//							&& TC.hoursPerDay <= 18 - TC.longestShift
-//							&& TC.hoursPerWeek <= TC.desiredHours
-//									- office.longestShift
-//							&& !(TC.endTime <= office.startShift || TC.startTime >= office.endShift)) {
-//					}
-//					elgibleTCs.add(TC);
-//				}
-//				for (Student elgibleTC : elgibleTCs) {
-//					start = office.startShift;
-//					end = office.endShift;
-//					if (elgibleTC.startTime >= office.startShift) {
-//						start = elgibleTC.startTime;
-//					}
-//					if (elgibleTC.endTime <= office.endShift) {
-//						end = elgibleTC.endTime;
-//					}
-//					workableShift = end - start;
-//					// set opening / closing conditions of shift
-//					if (end >= endSchedule) {
-//						closing = true;
-//					}
-//					// see if TC is applicable for shift
-//					if ((closing == true && elgibleTC.opened[day.ordinal()] == true)) {
-//						continue;
-//					} else {
-//						if (workableShift >= shortestShift
-//								&& elgibleTC.hoursPerWeek <= elgibleTC.desiredHours
-//										- office.longestShift) {
-//							chosenTC = elgibleTC;
-//							return chosenTC;
-//						}
-//
-//					}
-//				}
-			
+		}
+		
+		// schedule generic office
+		chosenTC = meetsRequirement(Students, office, day);
 		return chosenTC;
 	}
 
-	public Student uniqueCase(ArrayList<Student> TCs, Office office, Day day) {
+	public Student meetsRequirement(ArrayList<Student> TCs, Office office, Day day) {
 
 		int start;
 		int end;
 		int workableShift;
+		boolean opening = false;
 		boolean closing = false;
 		ArrayList<Student> elgibleTCs = new ArrayList<Student>();
 		Student chosenTC = null;
@@ -324,13 +289,12 @@ public class Schedule {
 		Collections.sort(TCs, chain);
 		for (Student TC : TCs) {
 			if (TC.longestShift >= shortestShift
-					&& TC.hoursPerDay <= 18 - office.longestShift
-					&& TC.hoursPerWeek <= TC.desiredHours - office.longestShift
+					&& TC.hoursPerDay <= highThresh - TC.longestShift
+					&& TC.hoursPerWeek <= TC.desiredHours - TC.longestShift
 					&& !(TC.endTime <= office.startShift || TC.startTime >= office.endShift)) {
 			}
 			elgibleTCs.add(TC);
 		}
-
 		for (Student elgibleTC : elgibleTCs) {
 			start = office.startShift;
 			end = office.endShift;
@@ -341,17 +305,22 @@ public class Schedule {
 				end = elgibleTC.endTime;
 			}
 			workableShift = end - start;
-			// closing conditions of shift
+			// opening / closing conditions of shift
+			if (start <= startSchedule) {
+				opening = true;
+			}
 			if (end >= endSchedule) {
 				closing = true;
 			}
-			if ((closing == true && elgibleTC.opened[day.ordinal()] == true)) {
+			if ((closing == true && elgibleTC.opened[day.ordinal()] == true)
+					|| (opening == true && elgibleTC.closed[day.ordinal()] == true)) {
 				continue;
 
 			} else {
 				if (workableShift >= shortestShift
 						&& elgibleTC.hoursPerWeek <= elgibleTC.desiredHours
-								- office.longestShift && elgibleTC.hoursPerDay <= highThresh - workableShift) {
+								- office.longestShift
+						&& elgibleTC.hoursPerDay <= highThresh - workableShift) {
 					chosenTC = elgibleTC;
 					return chosenTC;
 				}

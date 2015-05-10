@@ -4,12 +4,17 @@ import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintStream;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class Student implements Comparator<Student>, Comparable<Student> {
+public class Student implements Comparator<Student>, Comparable<Student>, Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Fields
 	String name;
 	ArrayList<ArrayList<Integer>> shiftAvail = new ArrayList<ArrayList<Integer>>();
@@ -36,11 +41,7 @@ public class Student implements Comparator<Student>, Comparable<Student> {
 	int scheduledHours;
 	int hoursPerDay;
 	int hoursPerWeek;
-	boolean adminSupport;
-	boolean cpcom140;
-	boolean byac290;
-	boolean LS;
-	boolean SSM;
+	boolean scheduled;
 	boolean[] closed = new boolean[7];
 	boolean[] opened = new boolean[7];;
 
@@ -63,10 +64,7 @@ public class Student implements Comparator<Student>, Comparable<Student> {
 		scheduledHours = 0;
 		hoursPerDay = 0;
 		endTime = 0;
-
-		adminSupport = false;
-		cpcom140 = false;
-		byac290 = false;
+		scheduled = false;
 	}
 
 	// setter methods
@@ -106,20 +104,6 @@ public class Student implements Comparator<Student>, Comparable<Student> {
 		this.office = s;
 	}
 
-	public void setAdmin(boolean b) {
-		if (b == true) {
-			this.adminSupport = true;
-		} else
-			this.adminSupport = false;
-	}
-
-	public void setCall(boolean b) {
-		if (b == true) {
-			this.byac290 = true;
-		} else
-			this.byac290 = false;
-	}
-
 	// getter methods
 	public String getName() {
 		return name;
@@ -131,6 +115,10 @@ public class Student implements Comparator<Student>, Comparable<Student> {
 
 	public String[][] getSchedule() {
 		return schedule;
+	}
+	
+	public String getOffice() {
+		return office;
 	}
 
 	public ArrayList<String> getOfficesWorked() {
@@ -151,17 +139,6 @@ public class Student implements Comparator<Student>, Comparable<Student> {
 
 	public int getLongestShift() {
 		return longestShift;
-	}
-
-	public boolean getAdmin() {
-		return adminSupport;
-	}
-
-	public boolean getCall() {
-		return byac290;
-	}
-	public String getOffice() {
-		return office;
 	}
 
 	// methods
