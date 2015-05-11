@@ -21,9 +21,6 @@ public class Office implements Serializable {
 	int startShift;
 	int endShift;
 	int longestShift;
-	boolean adminSupport = true;
-	boolean techStudio = false;
-	boolean byac290 = false;
 	int type = 0;
 	
 	
@@ -44,46 +41,26 @@ public class Office implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public void setAdmin(boolean b) {
-		if(b == true) {
-			this.adminSupport = true;
-		}
-		else
-			this.adminSupport = false;
-	}
-	public void setTech(boolean b) {
-		if(b == true) {
-			this.techStudio = true;
-		}
-		else
-			this.techStudio = false;
-	}
-	public void setCall(boolean b) {
-		if(b == true) {
-			this.byac290 = true;
-		}
-		else
-			this.byac290 = false;
-	}
 	
 	// getters
 	public ArrayList<ArrayList<Integer>> getOfficeReq(){ 
 		return officeReq;
-	}
-	public boolean getAdmin() {
-		return adminSupport;
-	}
-	public boolean getTech() {
-		return techStudio;
-	}
-	public boolean getCall() {
-		return byac290;
 	}
 	
 	
 	
 	// methods
 	
+	public float getScheduledHours() {
+		float scheduledHours = 0;
+		for(int i = 0; i < officeReq.size(); i++) {
+			for(int j = 0; j <officeReq.get(0).size(); j++) {
+				if(officeReq.get(i).get(j) >= 0)
+				scheduledHours += officeReq.get(i).get(j);
+			}
+		}
+		return scheduledHours/2;
+	}
 	public void printOffice() {
 		System.out.println("Office name: " + name);
 		for(int i = 0; i < officeReq.size(); i++) {

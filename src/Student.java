@@ -9,7 +9,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class Student implements Comparator<Student>, Comparable<Student>, Serializable {
+public class Student implements Comparator<Student>, Comparable<Student>,
+		Serializable {
 
 	/**
 	 * 
@@ -116,7 +117,7 @@ public class Student implements Comparator<Student>, Comparable<Student>, Serial
 	public String[][] getSchedule() {
 		return schedule;
 	}
-	
+
 	public String getOffice() {
 		return office;
 	}
@@ -142,6 +143,18 @@ public class Student implements Comparator<Student>, Comparable<Student>, Serial
 	}
 
 	// methods
+
+	public float getWorkableHours() {
+		float workableHours = 0;
+		return workableHours = desiredHours / 2;
+
+	}
+	
+	public float getRemainingHours() {
+		float remainingHours = 0;
+		return remainingHours = (desiredHours - scheduledHours)/2;
+	}
+
 	public void printStudent() {
 		// print student availability
 		// printStudentAvailability();
@@ -221,7 +234,6 @@ public class Student implements Comparator<Student>, Comparable<Student>, Serial
 		}
 		return 0;
 	}
-
 
 	public boolean equals(Object Student) {
 

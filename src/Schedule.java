@@ -96,6 +96,7 @@ public class Schedule implements Serializable {
 		ComparatorChain<Student> chain = new ComparatorChain<Student>();
 		chain.addComparator(new CustomComparator());
 		chain.addComparator(new LongestShift());
+		//chain.addComparator(new StartTime());
 		Collections.sort(TCs, chain);
 		for (Day day : Day.values()) {
 			for (Student s1 : TCs) {
@@ -181,7 +182,7 @@ public class Schedule implements Serializable {
 				if (count > office.longestShift) {
 					office.endShift = i + 1;
 					office.longestShift = count;
-					office.startShift = office.endShift - count - 1;
+					office.startShift = office.endShift - count;
 				}
 			}
 		}
@@ -208,10 +209,18 @@ public class Schedule implements Serializable {
 			end = TC.endTime;
 		}
 
-		TC.schedule[start + 1][day.ordinal()] = office.name;
+		TC.schedule[start][day.ordinal()] = office.name;
 		TC.schedule[end][day.ordinal()] = office.name;
-		office.schedule[start + 1][day.ordinal()] += TC.name;
+		office.schedule[start][day.ordinal()] += TC.name;
 		office.schedule[end][day.ordinal()] += TC.name;
+		
+//		if(TC.schedule[end][day.ordinal()].equals(TC.schedule[end-1][day.ordinal()]) || (TC.schedule[start][day.ordinal()].equals(TC.schedule[start-1][day.ordinal()]))) {
+//			TC.schedule[end][day.ordinal()] = null;
+//			TC.schedule[end+1][day.ordinal()] = null;
+//			TC.schedule[start][day.ordinal()] = null;
+//			TC.schedule[start][start-1] = null;
+//			
+//		}
 		TC.scheduledHours += (end - start);
 		TC.hoursPerDay += (end - start);
 		TC.hoursPerWeek += (end - start);
@@ -241,7 +250,7 @@ public class Schedule implements Serializable {
 			int officeReq = office.officeReq.get(i).get(day.ordinal());
 			office.officeReq.get(i).set(day.ordinal(), officeReq - 1);
 		}
-		if((TC.scheduledHours/TC.desiredHours) >= 90) {
+		if((TC.scheduledHours/TC.desiredHours) >= .80) {
 			TC.scheduled = true;
 		}
 	}
@@ -253,6 +262,7 @@ public class Schedule implements Serializable {
 		ComparatorChain<Student> chain = new ComparatorChain<Student>();
 		chain.addComparator(new CustomComparator());
 		chain.addComparator(new LongestShift());
+		//chain.addComparator(new StartTime());
 		Collections.sort(TCs, chain);
 		
 		// schedule special office
@@ -286,6 +296,7 @@ public class Schedule implements Serializable {
 		ComparatorChain<Student> chain = new ComparatorChain<Student>();
 		chain.addComparator(new CustomComparator());
 		chain.addComparator(new LongestShift());
+		//chain.addComparator(new StartTime());
 		Collections.sort(TCs, chain);
 		for (Student TC : TCs) {
 			if (TC.longestShift >= shortestShift
@@ -319,7 +330,7 @@ public class Schedule implements Serializable {
 			} else {
 				if (workableShift >= shortestShift
 						&& elgibleTC.hoursPerWeek <= elgibleTC.desiredHours
-								- office.longestShift
+								- workableShift
 						&& elgibleTC.hoursPerDay <= highThresh - workableShift) {
 					chosenTC = elgibleTC;
 					return chosenTC;
@@ -363,6 +374,7 @@ public class Schedule implements Serializable {
 			ComparatorChain<Student> chain = new ComparatorChain<Student>();
 			chain.addComparator(new CustomComparator());
 			chain.addComparator(new LongestShift());
+			//chain.addComparator(new StartTime());
 			Collections.sort(TCs, chain);
 			// System.out.println(chosenTC.shiftAvail.get(0).get(day.ordinal()));
 			getLongestShift(chosenTC, office, day, thresh);
@@ -370,46 +382,4 @@ public class Schedule implements Serializable {
 			// System.out.println(office.officeReq.get(0).get(day.ordinal()));
 		}
 	}
-
-	/*
-	 * public void getDailyHours(Student TCs, int office, ArrayList<Integer>
-	 * officeReq, ArrayList<Integer> studentAvail, Day day) { int count = 0; for
-	 * (int i = 0; i < 37; i++) { if (studentAvail.get(i) >= officeReq.get(i)) {
-	 * count++; } TCs.dayAvail[office][day.ordinal()] = count; } } // determine
-	 * student's total office avail for each day public void
-	 * availMatrix(ArrayList<Student> TCs, ArrayList<Office> offices, Day day) {
-	 * int count = 0; for (Office office : offices) { ArrayList<Integer>
-	 * officeReq = office.getDayReq(day); for (Student student : TCs) {
-	 * ArrayList<Integer> studentAvail = student.getDayAvail(day); // determine
-	 * student's office avail for each day getDailyHours(student, count,
-	 * officeReq, studentAvail, day); System.out.println("Stuent: " +
-	 * student.name + "1 day office Requirement "); for (int n = 0; n < 14; n++)
-	 * { for (int j = 0; j < 7; j++) { System.out.print(student.dayAvail[n][j] +
-	 * " | "); } System.out.println(); } } count++; } }
-	 * 
-	 * public ArrayList<Student> sortAvailMatrix(ArrayList<Student> TCs,
-	 * ArrayList<Office> offices, Day days) {
-	 * 
-	 * int officeCount = 0; for (Office office : offices) { ArrayList<Integer>
-	 * officeReq = office.getDayReq(days); for (Student student : TCs) {
-	 * ArrayList<Integer> studentAvail = student.getDayAvail(days);
-	 * ArrayList<Student> potentialTCs = new ArrayList<Student>();
-	 * potentialTCs.add(getLongestShift(officeCount, student, officeReq,
-	 * studentAvail, days)); } officeCount++; Collections.sort(potentialTCs, new
-	 * CustomComparator()); } return potentialTCs; }
-	 * 
-	 * public Student getLongestShift(int officeCount, Student student,
-	 * ArrayList<Integer> officeReq, ArrayList<Integer> studentAvail, Day day) {
-	 * 
-	 * for (int i = 1; i < 37; i += highThresh) { if (studentAvail.get(i) >=
-	 * officeReq.get(i) && student.longestShift <= highThresh)
-	 * student.longestShift++; } return student; }
-	 * 
-	 * public void scheduling2(ArrayList<Student> TCs, ArrayList<Office>
-	 * offices, Day day) {
-	 * 
-	 * ArrayList<Student> potentialTCs = sortAvailMatrix(TCs, offices, day);
-	 * 
-	 * }
-	 */
 }
