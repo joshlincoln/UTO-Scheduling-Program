@@ -15,6 +15,7 @@ import javax.swing.ImageIcon;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 
+import org.apache.commons.collections4.comparators.ComparatorChain;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFColor;
@@ -45,6 +46,7 @@ import javax.swing.JScrollPane;
 import javax.swing.UIManager;
 
 import java.awt.Choice;
+
 import javax.swing.JOptionPane;
 import javax.swing.JDialog;
 
@@ -55,17 +57,14 @@ public class GUI {
 	private JTextField textField_shortestShift;
 	private JTextField textField_shiftClose;
 	private JTextField textField_longestShift;
-	private static float averageDesiredHours;
-	private static float totalWorkableHours;
-	private static float totalRemainingWorkableHours;
-	private static float totalScheduledHours;
-	private static float totalOfficeHours;
-	private static float totalHoursNotScheduled;
 	private static ArrayList<Student> TCs = new ArrayList<Student>();
 	private static ArrayList<Office> Offices = new ArrayList<Office>();
 	public static ArrayList<String> officeNames = new ArrayList<String>();
+	private static String availDirectory;
+	private static String reqDirectory;
+	private static String configFile;
 	private static Schedule Schedule;
-	private static JTextArea textArea_Output = new JTextArea();
+	public static JTextArea textArea_Output = new JTextArea();
 	private static String[] timeSlot = { "6:00 AM", "6:30 AM", "7:00 AM",
 			"7:30 AM", "8:00 AM", "8:30 AM", "9:00 AM", "9:30 AM", "10:00 AM",
 			"10:30 AM", "11:00 AM", "11:30 AM", "12:00 PM", "12:30 PM",
@@ -123,30 +122,27 @@ public class GUI {
 		JPanel panel1 = new JPanel();
 		tabbedPane.addTab("Schedule", null, panel1, null);
 		panel1.setLayout(null);
-		
+
 		textArea_Output.setEditable(false);
 		textArea_Output.setLineWrap(true);
 		textArea_Output.setWrapStyleWord(true);
 		textArea_Output.setBounds(299, 177, 78, 128);
 		panel1.add(textArea_Output);
 
-		JOptionPane optionPane_startPopUP = new JOptionPane(
-				JOptionPane.QUESTION_MESSAGE);
-		int c = JOptionPane.showConfirmDialog(optionPane_startPopUP,
-				"Would you like to import existing data?",
-				"Existing data detected", JOptionPane.YES_NO_OPTION);
-		if(c == JOptionPane.YES_OPTION) {
-			textArea_Output.append("Reading existing data from file...");
-			try {
-				readData();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
-		optionPane_startPopUP.setBounds(200, 25, 260, 90);
-		panel1.add(optionPane_startPopUP);
-
-
+		// int c = JOptionPane.showConfirmDialog(panel1,
+		// "Would you like to import existing data?",
+		// "Existing data detected", JOptionPane.YES_NO_OPTION);
+		// panel1.setBounds(200, 25, 260, 90);
+		// panel1.add(panel1);
+		//
+		// if (c == JOptionPane.YES_OPTION) {
+		// textArea_Output.append("Reading existing data from file...");
+		// try {
+		// readData();
+		// } catch (IOException e) {
+		// e.printStackTrace();
+		// }
+		// }
 
 		JScrollPane scrollPane = new JScrollPane(textArea_Output);
 		scrollPane.setBounds(254, 20, 380, 308);
@@ -165,7 +161,7 @@ public class GUI {
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					TCs = null;
 					File path = availChooser.getSelectedFile();
-					String availDirectory = path.getAbsolutePath();
+					availDirectory = path.getAbsolutePath();
 					textArea_Output.append("\n");
 					textArea_Output.append("TC availability directory: ");
 					textArea_Output.append(availDirectory);
@@ -198,7 +194,7 @@ public class GUI {
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					Offices = null;
 					File selectedFile = reqChooser.getSelectedFile();
-					String reqDirectory = selectedFile.getAbsolutePath();
+					reqDirectory = selectedFile.getAbsolutePath();
 					textArea_Output.append("\n");
 					textArea_Output.append("Office requirements directory: ");
 					textArea_Output.append(reqDirectory);
@@ -226,7 +222,7 @@ public class GUI {
 				int returnValue = configChooser.showOpenDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					File selectedFile = configChooser.getSelectedFile();
-					String configFile = selectedFile.getAbsolutePath();
+					configFile = selectedFile.getAbsolutePath();
 					textArea_Output.append("\n");
 					textArea_Output.append("TC configuration file: ");
 					textArea_Output.append(configFile);
@@ -296,7 +292,7 @@ public class GUI {
 		textField_shortestShift.setColumns(10);
 		textField_shortestShift.setBounds(175, 232, 65, 28);
 		panel1.add(textField_shortestShift);
-		textField_shortestShift.setText("2.5");
+		textField_shortestShift.setText("2");
 
 		JButton button_ScheduleParameters = new JButton("Configure");
 		button_ScheduleParameters.addActionListener(new ActionListener() {
@@ -326,7 +322,7 @@ public class GUI {
 							break;
 						}
 					}
-					determineManagementNeeds(TCs, Offices);
+					Schedule.determineManagementNeeds(TCs, Offices);
 					textArea_Output.append("\n");
 					textArea_Output.append("TCs Configured");
 					textArea_Output.append("\n");
@@ -350,8 +346,6 @@ public class GUI {
 					e.printStackTrace();
 					textArea_Output.append("Invalid inptut");
 				}
-				evaluateSchedule(TCs, Offices);
-
 			}
 		});
 		button_generateSchedule.setFont(new Font("SansSerif", Font.PLAIN, 18));
@@ -362,7 +356,7 @@ public class GUI {
 		backgroundImage
 				.setIcon(new ImageIcon(
 						"C:\\Users\\Josh\\Dropbox\\Projects\\Scheduling Program\\GUIbackground.png"));
-		backgroundImage.setBounds(10, -24, 649, 511);
+		backgroundImage.setBounds(0, -24, 649, 511);
 		panel1.add(backgroundImage);
 	}
 
@@ -382,6 +376,37 @@ public class GUI {
 	/*
 	 * Saving and reading student objects after open/close of program
 	 */
+
+	public static Schedule testAll(Schedule schedule,
+			ArrayList<Office> offices, ArrayList<Student> tcs) {
+		ArrayList<Schedule> schedules = new ArrayList<Schedule>();
+		int count = 0;
+		for (float i = 4; i <= 8; i++) {
+			for (int j = 12; j <= 20; j++) {
+				count++;
+				textArea_Output.append("trying new schedule : " + count);
+				try {
+					TCs = createStudents(availDirectory);
+					Offices = createOffices(reqDirectory);
+					configTCs(TCs, configFile);
+					Schedule testSchedule = new Schedule(TCs, Offices);
+					testSchedule.setShortestShift(i);
+					testSchedule.setHighThresh(j);
+					//testSchedule = createSchedule(testSchedule, TCs, Offices);
+					testSchedule.setQuality(testSchedule.getPercentageMet()
+							- testSchedule.getAverageUnscheduledHours());
+
+					schedules.add(testSchedule);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+			}
+		}
+		Collections.sort(schedules, new QualityComparator());
+		return schedules.get(0);
+
+	}
 
 	public static void readData() throws IOException {
 		textArea_Output.setText("Existing data found, reading... \n");
@@ -735,6 +760,8 @@ public class GUI {
 		for (Student student : TCs) {
 			student.printStudentSchedule();
 		}
+		scheduleOut.flush();
+		scheduleOut.close();
 
 		File unScheduled = new File("UnscheduledTCs.txt");
 		PrintStream unOut = new PrintStream(new FileOutputStream(unScheduled));
@@ -744,130 +771,20 @@ public class GUI {
 				TC.printStudentSchedule();
 			}
 		}
-	}
-
-	public static void printPreOfficeRequirements(ArrayList<Office> offices) {
-		File reqFile = new File("OfficeRequirements.txt");
-		PrintStream reqOut = null;
-		try {
-			reqOut = new PrintStream(new FileOutputStream(reqFile));
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		System.setOut(reqOut);
-
-		for (Office office : offices) {
-			office.printOffice();
-		}
-	}
-
-	public static void printPostOfficeRequirements(ArrayList<Office> offices) {
-		File reqFile = new File("OfficeRequirementsPost.txt");
-		PrintStream reqOut = null;
-		try {
-			reqOut = new PrintStream(new FileOutputStream(reqFile));
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		System.setOut(reqOut);
-
-		for (Office office : offices) {
-			office.printOffice();
-		}
+		unOut.flush();
+		unOut.close();
 	}
 
 	// determine total workable weekly hours by TCs
 
-	public static void zeroParameters() {
-		averageDesiredHours = 0;
-		totalWorkableHours = 0;
-		totalRemainingWorkableHours = 0;
-		totalScheduledHours = 0;
-		totalOfficeHours = 0;
-		totalHoursNotScheduled = 0;
-	}
-
-	// de
-	// determine how many hours the scheduling algorithm failed to schedule in
-	// the offices post scheduling
-
-	// determines how many TCs are needed based on the specified offices
-	// requirements
-	public void determineManagementNeeds(ArrayList<Student> TCs,
-			ArrayList<Office> offices) {
-
-		printPreOfficeRequirements(offices);
-		zeroParameters();
-		int numTC = TCs.size();
-		for (Student TC : TCs) {
-			averageDesiredHours += TC.desiredHours;
-		}
-		averageDesiredHours = (float) ((averageDesiredHours / 2) / numTC);
-		textArea_Output.append("\n");
-		textArea_Output
-				.append("Determining the required TCs according to the given schedule parameters...\n");
-
-		for (Student TC : TCs) {
-			totalWorkableHours += TC.getWorkableHours();
-		}
-
-		for (Office office : offices) {
-			totalScheduledHours += office.getScheduledHours();
-		}
-
-		textArea_Output.append("\n");
-		textArea_Output.append("Total workable hours: " + totalWorkableHours);
-		textArea_Output.append("\n");
-		textArea_Output.append("Total scheduled hours: " + totalScheduledHours);
-
-		float totalNeededTCs = (int) (totalScheduledHours / averageDesiredHours);
-		textArea_Output.append("\n");
-		textArea_Output.append("The total number of TCs needed is: "
-				+ totalNeededTCs);
-		textArea_Output.append("\n");
-		textArea_Output.append("The total number of actual TCs is: " + numTC
-				+ "\n\n");
-	}
-
 	// creates the schedule using the TCs, offices, and schedule object
 	public static void createSchedule(Schedule schedule,
 			ArrayList<Student> TCs, ArrayList<Office> offices) throws Exception {
-
-		for (Office office : offices) {
-			schedule.scheduling(TCs, office);
-		}
+			schedule.determineManagementNeeds(TCs, offices);
+			schedule.scheduling(TCs, offices);
+			schedule.evaluateSchedule(TCs, offices);
 		Collections.sort(TCs, new Name());
 		printTCSchedule(TCs, offices);
 	}
 
-	public static void evaluateSchedule(ArrayList<Student> TCs,
-			ArrayList<Office> offices) {
-
-		printPostOfficeRequirements(offices);
-		int count = TCs.size();
-		for (Student TC : TCs) {
-			totalRemainingWorkableHours += TC.getRemainingHours();
-		}
-
-		textArea_Output.append("\nEvaluating Schedule Efficacy...\n\n");
-		textArea_Output.append("Total unscheduled desired hours for TCs: "
-				+ totalRemainingWorkableHours + "\n");
-		textArea_Output.append("Average unscheduled hours per TC: "
-				+ (int) totalRemainingWorkableHours / count + "\n");
-
-		for (Office office : offices) {
-			textArea_Output.append("\n" + office.name + ": ");
-			totalOfficeHours = office.getScheduledHours();
-			textArea_Output.append("unscheduled hours in office: "
-					+ totalOfficeHours);
-			totalHoursNotScheduled += totalOfficeHours;
-		}
-		textArea_Output.append("\n\nTotal unscheduled hours in the offices: "
-				+ totalHoursNotScheduled);
-		textArea_Output
-				.append("\nPercentage of schedule met: "
-						+ (100 - (float) ((totalHoursNotScheduled) / totalScheduledHours) * 100)
-						+ "\n");
-
-	}
 }

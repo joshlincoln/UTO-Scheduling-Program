@@ -6,7 +6,27 @@ Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 	CPCOM215 6:30am  | 			 | 			 | 	
+		 | 			 | 			 | 			 | 	Atrium 6:30am  | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	Atrium 8:30am  | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 	Atrium 11:30am  | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -20,15 +40,9 @@ Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 	30 break  | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 	CPCOM215 11:30am  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 	COOR190 3:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -38,6 +52,14 @@ Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
+CPCOM215 6:00pm  | 			 | 			 | 			 | 			 | 			 | 	Atrium 6:00pm  | 	
+
+		 | 			 | 			 | 			 | 	COOR190 6:30pm  | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	CPCOM215 7:30pm  | 			 | 			 | 			 | 	
+
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
@@ -48,31 +70,9 @@ Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+CPCOM215 10:30pm  | 			 | 			 | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	COOR190 6:00pm  | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-Atrium 8:00pm  | 			 | 	Atrium 8:00pm  | 	COOR190 8:00pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	COOR190 10:30pm  | 			 | 	COOR190 10:30pm  | 			 | 			 | 			 | 	
-
-Atrium 11:00pm  | 			 | 	Atrium 11:00pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -82,7 +82,23 @@ Student: Akhil Bansal Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 20
+Scheduled Hours: 16
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	COOR190 9:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -104,6 +120,24 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
+		 | 			 | 			 | 	COOR190 3:00pm  | 			 | 			 | 			 | 	
+
+		 | 			 | 	Atrium 3:30pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+CPCOM215 6:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	30 break  | 			 | 			 | 			 | 			 | 	
+
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
@@ -114,45 +148,11 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	Atrium 10:00pm  | 			 | 			 | 			 | 			 | 	
+
+CPCOM215 10:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	COOR190 4:00pm  | 			 | 			 | 			 | 			 | 	
-
-		 | 	CPCOM215 4:30pm  | 			 | 	Atrium 4:30pm  | 			 | 			 | 			 | 	
-
-COOR190 5:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-COOR190 7:30pm  | 	CPCOM215 7:30pm  | 	COOR190 7:30pm  | 	Atrium 7:30pm  | 			 | 			 | 			 | 	
-
-		 | 	CPCOM215 8:00pm  | 			 | 	Atrium 8:00pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	CPCOM215 10:30pm  | 	COOR190 10:30pm  | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 	Atrium 11:00pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -162,7 +162,7 @@ Student: Alec Puente Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 20
+Scheduled Hours: 15
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -184,13 +184,9 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	CPCOM215 11:00am  | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 	CPCOM140 11:30am  | 	CPCOM140 11:30am  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -204,11 +200,15 @@ CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm 
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
+		 | 			 | 			 | 	CPCOM215 3:00pm  | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 			 | 			 | 			 | 	
+		 | 	CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -242,7 +242,7 @@ Student: Alec Smith Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 20
+Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -258,7 +258,7 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	COOR190 9:30am  | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	Atrium 9:30am  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -272,7 +272,29 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	Atrium 3:00pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	COOR190 3:30pm  | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	CPCOM215 6:00pm  | 			 | 			 | 			 | 			 | 	
+
+COOR190 6:30pm  | 			 | 			 | 			 | 	COOR190 6:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -286,31 +308,9 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-Atrium 4:30pm  | 	COOR190 4:30pm  | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	CPCOM215 5:00pm  | 			 | 			 | 			 | 			 | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM215 7:30pm  | 			 | 	CPCOM215 7:30pm  | 			 | 			 | 			 | 			 | 	
-
-		 | 	COOR190 8:00pm  | 	CPCOM215 8:00pm  | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM215 10:30pm  | 	COOR190 10:30pm  | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 			 | 	
+COOR190 10:30pm  | 			 | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -322,7 +322,19 @@ Student: Anthony Calderone Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 21
+Scheduled Hours: 17
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	CPCOM215 6:30am  | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	CPCOM215 8:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -348,27 +360,15 @@ Scheduled Hours: 21
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 	CPCOM215 12:00pm  | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	COOR190 3:30pm  | 	Atrium 3:30pm  | 	CPCOM215 3:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 	30 break  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	Atrium 4:30pm  | 			 | 			 | 			 | 			 | 	
-
-COOR190 5:00pm  | 			 | 			 | 	COOR190 5:00pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -376,7 +376,7 @@ COOR190 5:00pm  | 			 | 			 | 	COOR190 5:00pm  | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 	CPCOM215 6:30pm  | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	30 break  | 	30 break  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -388,9 +388,9 @@ COOR190 5:00pm  | 			 | 			 | 	COOR190 5:00pm  | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 10:00pm  | 			 | 	Atrium 10:00pm  | 	COOR190 10:00pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	Atrium 10:00pm  | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	COOR190 10:30pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -402,15 +402,11 @@ Student: Anthony Sablan Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 18
+Scheduled Hours: 13
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 6:30am  | 	COOR190 6:30am  | 	CPCOM215 6:30am  | 	CPCOM215 6:30am  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+COOR190 6:30am  | 	COOR190 6:30am  | 			 | 			 | 	COOR190 6:30am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -418,13 +414,17 @@ COOR190 6:30am  | 	COOR190 6:30am  | 	CPCOM215 6:30am  | 	CPCOM215 6:30am  | 			
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 	COOR190 8:30am  | 			 | 	COOR150 8:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 11:00am  | 	COOR190 11:00am  | 	CPCOM215 11:00am  | 	CPCOM215 11:00am  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+COOR190 11:00am  | 			 | 			 | 	COOR150 11:00am  | 	COOR190 11:00am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -482,7 +482,7 @@ Student: Azeez Usman Schedule
 
 Desired Hours: 20
 
-Scheduled Hours: 15
+Scheduled Hours: 16
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -506,7 +506,7 @@ Scheduled Hours: 15
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 11:30am  | 	COOR190 11:30am  | 	CPCOM215 11:30am  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	CPCOM215 11:30am  | 	COOR150 11:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -520,17 +520,17 @@ COOR190 11:30am  | 	COOR190 11:30am  | 	CPCOM215 11:30am  | 			 | 			 | 			 | 		
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	30 break  | 			 | 			 | 			 | 			 | 	
+
+CPCOM215 3:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 4:30pm  | 			 | 	CPCOM215 4:30pm  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	COOR150 5:00pm  | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	COOR190 5:30pm  | 			 | 			 | 			 | 			 | 			 | 	
+CPCOM215 5:30pm  | 			 | 	CPCOM215 5:30pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -562,15 +562,11 @@ Student: Brandon Kramer Schedule
 
 Desired Hours: 20
 
-Scheduled Hours: 14
+Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	BYAC290 6:30am  | 			 | 	BYAC290 6:30am  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 	BYAC290 6:30am  | 	BYAC290 6:30am  | 	BYAC290 6:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -585,6 +581,10 @@ Scheduled Hours: 14
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	BYAC290 11:00am  | 			 | 			 | 			 | 			 | 	
 
 		 | 	BYAC290 11:30am  | 			 | 	BYAC290 11:30am  | 			 | 			 | 			 | 	
 
@@ -600,13 +600,13 @@ Scheduled Hours: 14
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 	BYAC290 3:00pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 	BYAC290 4:30pm  | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -642,21 +642,11 @@ Student: Brian O'Hara Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 19
+Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-Atrium 6:30am  | 	CPCOM215 6:30am  | 			 | 	COOR190 6:30am  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 	COOR190 9:00am  | 			 | 			 | 			 | 	
+Atrium 6:30am  | 			 | 	COOR190 6:30am  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -664,7 +654,13 @@ Atrium 6:30am  | 	CPCOM215 6:30am  | 			 | 	COOR190 6:30am  | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-60 break  | 	60 break  | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	COOR190 9:30am  | 			 | 			 | 			 | 			 | 	
+
+30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -684,7 +680,9 @@ Atrium 6:30am  | 	CPCOM215 6:30am  | 			 | 	COOR190 6:30am  | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-Atrium 4:00pm  | 	CPCOM215 4:00pm  | 			 | 			 | 			 | 			 | 			 | 	
+Atrium 3:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	CPCOM215 3:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -698,7 +696,7 @@ Atrium 4:00pm  | 	CPCOM215 4:00pm  | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -711,6 +709,8 @@ Atrium 4:00pm  | 	CPCOM215 4:00pm  | 			 | 			 | 			 | 			 | 			 |
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -730,7 +730,25 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	COOR190 7:30am  | 			 | 	Atrium 7:30am  | 			 | 			 | 	
+		 | 	CPCOM215 7:30am  | 			 | 	Atrium 7:30am  | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	COOR150 8:30am  | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	Atrium 9:30am  | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	30 break  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -742,13 +760,7 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	30 break  | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 	60 break  | 			 | 			 | 	
+		 | 	CPCOM215 3:00pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -756,19 +768,7 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	CPCOM215 2:30pm  | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 	Atrium 4:30pm  | 			 | 			 | 	
-
-		 | 			 | 	CPCOM215 5:00pm  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 	COOR150 5:00pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -802,7 +802,7 @@ Student: Charles Dowswell Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 24
+Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -816,7 +816,7 @@ Scheduled Hours: 24
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 	BYAC290 9:00am  | 			 | 			 | 	
+		 | 			 | 			 | 	BYAC290 9:00am  | 	BYAC290 9:00am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -824,13 +824,31 @@ Scheduled Hours: 24
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-BYAC290 11:00am  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	BYAC290 11:00am  | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	BYAC290 12:00pm  | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	BYAC290 12:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 	30 break  | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+BYAC290 3:30pm  | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -844,29 +862,11 @@ BYAC290 11:00am  | 			 | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	BYAC290 4:30pm  | 	BYAC290 4:30pm  | 	BYAC290 4:30pm  | 	BYAC290 4:30pm  | 			 | 			 | 	
+		 | 	BYAC290 8:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-BYAC290 7:00pm  | 	BYAC290 7:00pm  | 	BYAC290 7:00pm  | 	BYAC290 7:00pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	BYAC290 9:30pm  | 			 | 			 | 			 | 			 | 	
+BYAC290 9:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -882,7 +882,7 @@ Student: Chelsea Ramsey Schedule
 
 Desired Hours: 20
 
-Scheduled Hours: 15
+Scheduled Hours: 22
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -904,7 +904,7 @@ Scheduled Hours: 15
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	BYAC290 11:00am  | 	BYAC290 11:00am  | 	BYAC290 11:00am  | 			 | 			 | 			 | 	
+		 | 	BYAC290 11:00am  | 	BYAC290 11:00am  | 	BYAC290 11:00am  | 	BYAC290 11:00am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -918,19 +918,19 @@ Scheduled Hours: 15
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 	30 break  | 			 | 			 | 	
+
+		 | 	BYAC290 3:00pm  | 	BYAC290 3:00pm  | 	BYAC290 3:00pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	BYAC290 4:00pm  | 	BYAC290 4:00pm  | 	BYAC290 4:00pm  | 			 | 			 | 			 | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 	BYAC290 5:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -962,7 +962,7 @@ Student: Christina Trinh Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 13
+Scheduled Hours: 12
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -974,21 +974,7 @@ Scheduled Hours: 13
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	COOR190 8:30am  | 	COOR150 8:30am  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	30 break  | 	30 break  | 			 | 			 | 			 | 	
+CPCOM215 8:30am  | 	COOR150 8:30am  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1002,7 +988,21 @@ Scheduled Hours: 13
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	COOR190 3:30pm  | 	COOR150 3:30pm  | 			 | 			 | 			 | 	
+30 break  | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+CPCOM215 3:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	COOR150 3:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1042,7 +1042,7 @@ Student: Christopher Furseth Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 25
+Scheduled Hours: 22
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1066,9 +1066,7 @@ Scheduled Hours: 25
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 			 | 			 | 	
+CPCOM140 11:30am  | 			 | 	CPCOM140 11:30am  | 	CPCOM140 11:30am  | 	CPCOM140 11:30am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1082,15 +1080,17 @@ CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm 
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+30 break  | 			 | 	30 break  | 	30 break  | 	30 break  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+CPCOM140 5:30pm  | 			 | 	CPCOM140 5:30pm  | 	CPCOM140 5:30pm  | 	CPCOM140 5:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1122,21 +1122,11 @@ Student: Dakota Boldt Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 19
+Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	Atrium 6:30am  | 	CPCOM215 6:30am  | 	COOR190 6:30am  | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 	CPCOM215 9:00am  | 			 | 			 | 	
+		 | 	Atrium 6:30am  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1144,7 +1134,13 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	60 break  | 			 | 	60 break  | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1164,7 +1160,23 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	Atrium 4:00pm  | 			 | 	COOR190 4:00pm  | 			 | 	
+		 | 	Atrium 3:00pm  | 			 | 			 | 	CPCOM215 3:00pm  | 			 | 			 | 	
+
+		 | 			 | 			 | 	COOR190 3:30pm  | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	CPCOM215 6:30pm  | 			 | 			 | 	
+
+		 | 			 | 			 | 	30 break  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1178,19 +1190,7 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	COOR190 10:30pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1202,7 +1202,7 @@ Student: Daniel Li Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 23
+Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1214,25 +1214,7 @@ Scheduled Hours: 23
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR150 8:30am  | 			 | 			 | 	COOR190 8:30am  | 	CPCOM215 8:30am  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 	30 break  | 	30 break  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-60 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 	COOR190 8:30am  | 	CPCOM215 8:30am  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1246,13 +1228,31 @@ COOR150 8:30am  | 			 | 			 | 	COOR190 8:30am  | 	CPCOM215 8:30am  | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	COOR190 4:30pm  | 	CPCOM215 4:30pm  | 			 | 			 | 	
+		 | 	30 break  | 	30 break  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR150 5:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	COOR190 3:00pm  | 	CPCOM215 3:00pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	Atrium 3:30pm  | 	Atrium 3:30pm  | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	Atrium 6:00pm  | 	Atrium 6:00pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1288,7 +1288,21 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-CPCOM215 7:00am  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	COOR190 7:00am  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	30 break  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1306,7 +1320,9 @@ CPCOM215 7:00am  | 			 | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-60 break  | 			 | 			 | 			 | 			 | 			 | 	Atrium 11:30am  | 	
+		 | 			 | 	COOR190 3:00pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 	Atrium 3:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1318,15 +1334,9 @@ CPCOM215 7:00am  | 			 | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	CPCOM215 6:30pm  | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 	60 break  | 	
-
-CPCOM215 4:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1338,19 +1348,9 @@ CPCOM215 4:30pm  | 			 | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 	Atrium 10:00pm  | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 	Atrium 9:00pm  | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1362,7 +1362,7 @@ Student: Duke Nguyen Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 23
+Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1374,7 +1374,7 @@ Scheduled Hours: 23
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	COOR150 8:30am  | 	COOR190 8:30am  | 	CPCOM215 8:30am  | 			 | 			 | 	
+		 | 			 | 			 | 	CPCOM215 8:30am  | 	Atrium 8:30am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1392,8 +1392,6 @@ Scheduled Hours: 23
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	60 break  | 			 | 			 | 			 | 			 | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
@@ -1402,15 +1400,17 @@ Scheduled Hours: 23
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
+		 | 			 | 			 | 	CPCOM215 3:00pm  | 	Atrium 3:00pm  | 			 | 			 | 	
+
+CPCOM215 3:30pm  | 			 | 	COOR190 3:30pm  | 			 | 	COOR190 3:30pm  | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	COOR190 4:30pm  | 	CPCOM215 4:30pm  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	COOR150 5:30pm  | 			 | 			 | 			 | 			 | 	
+CPCOM215 5:30pm  | 			 | 	COOR190 5:30pm  | 			 | 	COOR190 5:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1442,7 +1442,23 @@ Student: Elliott Goldman Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 20
+Scheduled Hours: 19
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	Atrium 9:30am  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1464,7 +1480,9 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	Atrium 3:00pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	CPCOM215 3:30pm  | 			 | 	COOR190 3:30pm  | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1474,33 +1492,11 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 	COOR190 2:30pm  | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 	COOR150 4:00pm  | 			 | 			 | 			 | 	
-
-Atrium 4:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	COOR190 5:00pm  | 	CPCOM215 5:00pm  | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+COOR190 6:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 	COOR190 6:30pm  | 			 | 	
 
-		 | 			 | 			 | 	COOR150 7:00pm  | 			 | 			 | 			 | 	
-
-Atrium 7:30pm  | 	COOR190 7:30pm  | 	CPCOM215 7:30pm  | 			 | 			 | 			 | 			 | 	
-
-		 | 	COOR190 8:00pm  | 	CPCOM215 8:00pm  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	30 break  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1510,7 +1506,11 @@ Atrium 7:30pm  | 	COOR190 7:30pm  | 	CPCOM215 7:30pm  | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	COOR190 10:30pm  | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+COOR190 10:30pm  | 			 | 			 | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1522,15 +1522,11 @@ Student: Ethan Wingett Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 20
+Scheduled Hours: 16
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-Atrium 6:30am  | 	CPCOM215 6:30am  | 			 | 	CPCOM215 6:30am  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+Atrium 6:30am  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1542,9 +1538,9 @@ Atrium 6:30am  | 	CPCOM215 6:30am  | 			 | 	CPCOM215 6:30am  | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	CPCOM215 10:30am  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-60 break  | 	CPCOM215 11:00am  | 			 | 			 | 			 | 			 | 			 | 	
+30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1564,7 +1560,21 @@ Atrium 6:30am  | 	CPCOM215 6:30am  | 			 | 	CPCOM215 6:30am  | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-Atrium 4:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+Atrium 3:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	COOR190 6:00pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 	CPCOM215 6:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1578,19 +1588,9 @@ Atrium 4:00pm  | 			 | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	COOR190 7:30pm  | 			 | 			 | 			 | 			 | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	COOR190 10:30pm  | 			 | 			 | 			 | 			 | 	
+		 | 	CPCOM215 10:30pm  | 	COOR190 10:30pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1602,7 +1602,7 @@ Student: Fatima Lasker Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 21
+Scheduled Hours: 15
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1620,7 +1620,11 @@ Scheduled Hours: 21
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	COOR190 10:00am  | 	CPCOM215 10:00am  | 	CPCOM215 10:00am  | 			 | 			 | 			 | 	
+		 | 	CPCOM215 10:00am  | 	COOR150 10:00am  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	COOR190 11:00am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1630,25 +1634,21 @@ Scheduled Hours: 21
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	30 break  | 	30 break  | 	30 break  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 	COOR150 2:00pm  | 			 | 			 | 	
+		 | 			 | 	30 break  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
+		 | 	CPCOM215 3:00pm  | 			 | 			 | 	COOR190 3:00pm  | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	COOR190 4:30pm  | 	CPCOM215 4:30pm  | 	CPCOM215 4:30pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 	COOR150 5:00pm  | 			 | 			 | 	
+		 | 			 | 	COOR150 5:00pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1682,7 +1682,7 @@ Student: Gavin Plooster Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 20
+Scheduled Hours: 16
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1694,39 +1694,7 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	COOR190 8:30am  | 	Atrium 8:30am  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 	30 break  | 	30 break  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 	CPCOM215 4:30pm  | 	Atrium 4:30pm  | 			 | 			 | 	
+		 | 			 | 			 | 	COOR190 8:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1750,7 +1718,39 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	COOR190 3:00pm  | 			 | 			 | 			 | 	
+
+		 | 	Atrium 3:30pm  | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+CPCOM215 6:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	Atrium 10:00pm  | 			 | 			 | 			 | 			 | 			 | 	
+
+CPCOM215 10:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1762,15 +1762,11 @@ Student: Hancheol Cho Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 20
+Scheduled Hours: 15
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	Atrium 6:30am  | 			 | 			 | 	COOR190 6:30am  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+CPCOM215 6:30am  | 			 | 	CPCOM215 6:30am  | 	COOR190 6:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1778,13 +1774,11 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+CPCOM215 8:30am  | 			 | 	CPCOM215 8:30am  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	60 break  | 			 | 			 | 	60 break  | 			 | 			 | 	
+		 | 			 | 			 | 	COOR190 9:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1804,7 +1798,11 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	Atrium 4:00pm  | 			 | 			 | 	COOR190 4:00pm  | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+Atrium 3:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1818,7 +1816,11 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	CPCOM215 7:30pm  | 			 | 			 | 			 | 	
+30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	COOR190 8:00pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1826,11 +1828,9 @@ Scheduled Hours: 20
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+Atrium 10:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 	
+		 | 	COOR190 10:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1842,7 +1842,7 @@ Student: Jameson Davis Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 19
+Scheduled Hours: 15
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1854,7 +1854,21 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	COOR150 8:30am  | 	COOR190 8:30am  | 	CPCOM215 8:30am  | 			 | 			 | 			 | 	
+COOR150 8:30am  | 			 | 			 | 	CPCOM215 8:30am  | 	COOR190 8:30am  | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	CPCOM215 11:00am  | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+30 break  | 			 | 			 | 			 | 	30 break  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1866,23 +1880,9 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 	COOR190 3:00pm  | 			 | 			 | 	
 
-		 | 	30 break  | 	30 break  | 	30 break  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	COOR150 3:30pm  | 	COOR190 3:30pm  | 	CPCOM215 3:30pm  | 			 | 			 | 			 | 	
+COOR150 3:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1938,7 +1938,7 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 9:30am  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	Atrium 9:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1952,7 +1952,25 @@ COOR190 9:30am  | 			 | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	COOR190 2:00pm  | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	Atrium 3:00pm  | 			 | 			 | 			 | 	
+
+		 | 			 | 	CPCOM215 3:30pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -1966,25 +1984,7 @@ COOR190 9:30am  | 			 | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 4:30pm  | 	Atrium 4:30pm  | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	CPCOM215 5:00pm  | 	COOR190 5:00pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM215 6:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	Atrium 7:30pm  | 	CPCOM215 7:30pm  | 	COOR190 7:30pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM215 9:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 	COOR190 9:00pm  | 	CPCOM215 9:00pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2002,7 +2002,7 @@ Student: Jorge Garcia Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 19
+Scheduled Hours: 16
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2018,7 +2018,15 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	CPCOM215 9:30am  | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	COOR190 9:30am  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	COOR190 11:30am  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2032,35 +2040,9 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 	COOR150 3:00pm  | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	CPCOM215 4:30pm  | 			 | 			 | 			 | 			 | 			 | 	
-
-COOR190 5:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 	COOR150 5:30pm  | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-COOR190 7:30pm  | 	Atrium 7:30pm  | 			 | 			 | 			 | 			 | 			 | 	
-
-COOR190 8:00pm  | 	CPCOM215 8:00pm  | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	Atrium 3:30pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2070,7 +2052,25 @@ COOR190 8:00pm  | 	CPCOM215 8:00pm  | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 10:30pm  | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 			 | 			 | 	
+		 | 	CPCOM215 6:00pm  | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	COOR190 6:30pm  | 			 | 			 | 			 | 	
+
+		 | 			 | 	30 break  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	Atrium 10:00pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 	CPCOM215 10:30pm  | 			 | 	COOR190 10:30pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2082,7 +2082,7 @@ Student: Joshua Hsu Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 25
+Scheduled Hours: 22
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2106,9 +2106,7 @@ Scheduled Hours: 25
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 			 | 			 | 	
+CPCOM140 11:30am  | 	CPCOM140 11:30am  | 			 | 	CPCOM140 11:30am  | 	CPCOM140 11:30am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2122,15 +2120,17 @@ CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm  | 	CPCOM140 12:00pm 
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+30 break  | 	30 break  | 			 | 	30 break  | 	30 break  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 	CPCOM140 5:00pm  | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+CPCOM140 5:30pm  | 	CPCOM140 5:30pm  | 			 | 	CPCOM140 5:30pm  | 	CPCOM140 5:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2162,29 +2162,7 @@ Student: Kelly Condon Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 19
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	Atrium 6:30am  | 			 | 	COOR190 6:30am  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 	COOR190 9:00am  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	60 break  | 			 | 			 | 			 | 			 | 			 | 	
+Scheduled Hours: 16
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2204,7 +2182,11 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	Atrium 4:00pm  | 			 | 	CPCOM215 4:00pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 	COOR190 11:30am  | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2216,11 +2198,11 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	CPCOM215 7:00pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-CPCOM215 7:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 	30 break  | 			 | 	
 
-		 | 			 | 	CPCOM215 8:00pm  | 			 | 			 | 			 | 			 | 	
+Atrium 3:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2230,7 +2212,25 @@ CPCOM215 7:30pm  | 			 | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-CPCOM215 10:30pm  | 			 | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	COOR190 6:30pm  | 			 | 			 | 			 | 	COOR190 6:30pm  | 			 | 	
+
+30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+Atrium 10:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	COOR190 10:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2242,7 +2242,11 @@ Student: Kevin Wesley Schedule
 
 Desired Hours: 20
 
-Scheduled Hours: 18
+Scheduled Hours: 16
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 	COOR190 6:30am  | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2260,7 +2264,9 @@ Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 	COOR190 11:00am  | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 	COOR150 11:30am  | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2276,27 +2282,21 @@ Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	COOR190 2:00pm  | 	CPCOM215 2:00pm  | 	COOR190 2:00pm  | 			 | 			 | 	
+		 | 			 | 			 | 	CPCOM215 3:30pm  | 	Atrium 3:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	COOR150 4:00pm  | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM215 4:30pm  | 			 | 	COOR190 4:30pm  | 	CPCOM215 4:30pm  | 	COOR190 4:30pm  | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 	COOR150 5:00pm  | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 	Atrium 6:00pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM215 7:00pm  | 	COOR150 7:00pm  | 	COOR190 7:00pm  | 	CPCOM215 7:00pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	CPCOM215 7:00pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2322,7 +2322,7 @@ Student: Korinna Romero Schedule
 
 Desired Hours: 20
 
-Scheduled Hours: 17
+Scheduled Hours: 16
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2340,11 +2340,7 @@ CPCOM215 6:30am  | 			 | 	BYAC290 6:30am  | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-60 break  | 			 | 	60 break  | 			 | 			 | 			 | 			 | 	
+30 break  | 			 | 	30 break  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2364,7 +2360,11 @@ CPCOM215 6:30am  | 			 | 	BYAC290 6:30am  | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-CPCOM215 4:00pm  | 			 | 	BYAC290 4:00pm  | 			 | 			 | 			 | 			 | 	
+CPCOM215 3:00pm  | 			 | 	BYAC290 3:00pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2402,7 +2402,7 @@ Student: Ling Wei Schedule
 
 Desired Hours: 10
 
-Scheduled Hours: 8
+Scheduled Hours: 10
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2426,6 +2426,36 @@ Scheduled Hours: 8
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
+		 | 			 | 			 | 			 | 			 | 			 | 	Atrium 11:30am  | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 	30 break  | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 	Atrium 6:00pm  | 	
+
+		 | 			 | 	COOR190 6:30pm  | 			 | 			 | 			 | 			 | 	
+
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
@@ -2440,39 +2470,9 @@ Scheduled Hours: 8
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	COOR190 10:30pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-COOR190 8:00pm  | 	Atrium 8:00pm  | 			 | 	Atrium 8:00pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-COOR190 10:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	Atrium 11:00pm  | 			 | 	Atrium 11:00pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2482,29 +2482,11 @@ Student: Morgan Hammel Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 19
+Scheduled Hours: 22
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	Atrium 6:30am  | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 	COOR190 9:00am  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	60 break  | 			 | 			 | 			 | 			 | 	
+		 | 	Atrium 6:30am  | 			 | 			 | 	CPCOM215 6:30am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2518,13 +2500,7 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 	COOR190 2:30pm  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	Atrium 4:00pm  | 			 | 			 | 			 | 			 | 	
+		 | 	30 break  | 			 | 			 | 	30 break  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2538,9 +2514,15 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	CPCOM215 7:30pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	CPCOM215 8:00pm  | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	Atrium 3:00pm  | 			 | 			 | 	CPCOM215 3:00pm  | 			 | 			 | 	
+
+		 | 			 | 			 | 	COOR190 3:30pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2550,7 +2532,25 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	CPCOM215 10:30pm  | 			 | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	30 break  | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	COOR190 10:30pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2602,13 +2602,7 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 	COOR190 4:00pm  | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	COOR190 5:00pm  | 			 | 			 | 			 | 			 | 			 | 	
+COOR190 3:30pm  | 			 | 			 | 			 | 			 | 	COOR190 3:30pm  | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2618,9 +2612,11 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	30 break  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-Atrium 8:00pm  | 	COOR190 8:00pm  | 			 | 	COOR190 8:00pm  | 			 | 			 | 			 | 	
+		 | 			 | 	CPCOM215 6:30pm  | 	Atrium 6:30pm  | 			 | 	COOR190 6:30pm  | 			 | 	
+
+30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2630,9 +2626,13 @@ Atrium 8:00pm  | 	COOR190 8:00pm  | 			 | 	COOR190 8:00pm  | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	COOR190 10:30pm  | 	COOR190 10:30pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-Atrium 11:00pm  | 	Atrium 11:00pm  | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	Atrium 10:00pm  | 			 | 			 | 			 | 	
+
+COOR190 10:30pm  | 			 | 	CPCOM215 10:30pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2642,7 +2642,7 @@ Student: Nicholas Murray Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 24
+Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2668,8 +2668,6 @@ Scheduled Hours: 24
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	BYAC290 12:00pm  | 			 | 			 | 			 | 			 | 			 | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
@@ -2682,13 +2680,9 @@ Scheduled Hours: 24
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	30 break  | 			 | 			 | 			 | 			 | 			 | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-BYAC290 4:30pm  | 			 | 	BYAC290 4:30pm  | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+BYAC290 3:30pm  | 	BYAC290 3:30pm  | 	BYAC290 3:30pm  | 			 | 	BYAC290 3:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2696,21 +2690,27 @@ BYAC290 4:30pm  | 			 | 	BYAC290 4:30pm  | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-BYAC290 7:30pm  | 	BYAC290 7:30pm  | 	BYAC290 7:30pm  | 	BYAC290 7:30pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 	BYAC290 8:00pm  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 	BYAC290 5:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
+30 break  | 	30 break  | 	30 break  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-BYAC290 10:30pm  | 	BYAC290 10:30pm  | 	BYAC290 10:30pm  | 	BYAC290 10:30pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+BYAC290 9:30pm  | 	BYAC290 9:30pm  | 	BYAC290 9:30pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2722,55 +2722,55 @@ Student: Peter Fernando Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 18
+Scheduled Hours: 21
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 6:30am  | 			 | 			 | 			 | 	Atrium 6:30am  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	Atrium 6:30am  | 	COOR190 6:30am  | 	CPCOM215 6:30am  | 	COOR190 6:30am  | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 	Atrium 9:00am  | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	COOR190 8:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-CPCOM215 10:00am  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	Atrium 9:30am  | 			 | 			 | 	COOR190 9:30am  | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 	COOR150 11:30am  | 			 | 	
-
-		 | 			 | 			 | 	CPCOM215 12:00pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 	30 break  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+COOR190 11:30am  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	CPCOM215 2:30pm  | 			 | 			 | 	
 
 30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	CPCOM215 2:30pm  | 			 | 	COOR150 2:30pm  | 			 | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM215 5:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+COOR190 5:30pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2826,11 +2826,7 @@ SSM 8:00am  | 	SSM 8:00am  | 	SSM 8:00am  | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-60 break  | 	60 break  | 	60 break  | 			 | 			 | 			 | 			 | 	
+30 break  | 	30 break  | 	30 break  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2848,7 +2844,11 @@ SSM 8:00am  | 	SSM 8:00am  | 	SSM 8:00am  | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-SSM 5:00pm  | 	SSM 5:00pm  | 	SSM 5:00pm  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+SSM 4:30pm  | 	SSM 4:30pm  | 	SSM 4:30pm  | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2882,15 +2882,11 @@ Student: Ryan Slater Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 19
+Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	COOR190 6:30am  | 	CPCOM215 6:30am  | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 	COOR150 7:30am  | 			 | 			 | 	
+		 | 	COOR190 6:30am  | 	CPCOM215 6:30am  | 	Atrium 6:30am  | 	COOR190 6:30am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2898,13 +2894,13 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
+		 | 			 | 			 | 			 | 	COOR190 8:30am  | 			 | 			 | 	
+
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	30 break  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	Atrium 9:30am  | 			 | 			 | 			 | 	
 
-		 | 	CPCOM215 10:30am  | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 	30 break  | 			 | 			 | 	
+		 | 	30 break  | 	30 break  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2914,7 +2910,11 @@ Scheduled Hours: 19
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	CPCOM215 1:30pm  | 	CPCOM215 1:30pm  | 			 | 	COOR150 1:30pm  | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	COOR190 1:30pm  | 	CPCOM215 1:30pm  | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2962,7 +2962,45 @@ Student: Samjhana Devkota Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 17
+Scheduled Hours: 16
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	Atrium 6:30am  | 	COOR190 6:30am  | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	30 break  | 	30 break  | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	Atrium 3:00pm  | 	COOR190 3:00pm  | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -2986,45 +3024,7 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 	Atrium 11:30am  | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 	60 break  | 	
-
-CPCOM215 4:30pm  | 	CPCOM215 4:30pm  | 			 | 	Atrium 4:30pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-CPCOM215 7:30pm  | 	CPCOM215 7:30pm  | 			 | 	Atrium 7:30pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 	Atrium 9:00pm  | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3122,15 +3122,11 @@ Student: Travis McHenry Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 17
+Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	Atrium 6:30am  | 			 | 	COOR190 6:30am  | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+COOR190 6:30am  | 	CPCOM215 6:30am  | 	Atrium 6:30am  | 	CPCOM215 6:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3138,13 +3134,13 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	CPCOM215 8:30am  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 	CPCOM215 9:30am  | 	Atrium 9:30am  | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	60 break  | 			 | 	60 break  | 			 | 	
+30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3164,13 +3160,17 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 	Atrium 4:00pm  | 			 | 	COOR190 4:00pm  | 			 | 	
+COOR190 3:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	CPCOM215 3:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	CPCOM215 5:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3202,15 +3202,11 @@ Student: Travis Winston Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 17
+Scheduled Hours: 24
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	Atrium 6:30am  | 			 | 	COOR190 6:30am  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+BYAC290 6:30am  | 			 | 			 | 	BYAC290 6:30am  | 	BYAC290 6:30am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3220,11 +3216,11 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	BYAC290 9:00am  | 	BYAC290 9:00am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	60 break  | 			 | 	60 break  | 			 | 			 | 	
+30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3244,7 +3240,9 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 	Atrium 4:00pm  | 			 | 	COOR190 4:00pm  | 			 | 			 | 	
+BYAC290 3:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	BYAC290 3:30pm  | 	BYAC290 3:30pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3258,7 +3256,7 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 	30 break  | 	30 break  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3267,6 +3265,8 @@ Scheduled Hours: 17
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 	BYAC290 9:30pm  | 	BYAC290 9:30pm  | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3282,7 +3282,7 @@ Student: VISHAL OMPRAKASH SHAH Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 17
+Scheduled Hours: 18
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3298,7 +3298,7 @@ Scheduled Hours: 17
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 9:30am  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	Atrium 9:30am  | 			 | 	COOR190 9:30am  | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3312,12 +3312,6 @@ COOR190 9:30am  | 			 | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	CPCOM215 2:00pm  | 			 | 			 | 			 | 			 | 			 | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
@@ -3326,9 +3320,9 @@ COOR190 9:30am  | 			 | 			 | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-COOR190 4:30pm  | 			 | 	Atrium 4:30pm  | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 	Atrium 3:00pm  | 			 | 	COOR190 3:00pm  | 			 | 	
 
-		 | 			 | 			 | 	COOR190 5:00pm  | 			 | 			 | 			 | 	
+		 | 	COOR190 3:30pm  | 			 | 			 | 	CPCOM215 3:30pm  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3338,7 +3332,13 @@ COOR190 4:30pm  | 			 | 	Atrium 4:30pm  | 			 | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	CPCOM215 7:30pm  | 	Atrium 7:30pm  | 	COOR190 7:30pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 	CPCOM215 6:30pm  | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	COOR190 7:30pm  | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3362,15 +3362,11 @@ Student: Vishal Varun Tipparaju Schedule
 
 Desired Hours: 25
 
-Scheduled Hours: 24
+Scheduled Hours: 25
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-BYAC290 6:30am  | 			 | 			 | 			 | 	BYAC290 6:30am  | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+BYAC290 6:30am  | 	BYAC290 6:30am  | 			 | 			 | 	BYAC290 6:30am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3378,13 +3374,17 @@ BYAC290 6:30am  | 			 | 			 | 			 | 	BYAC290 6:30am  | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 	BYAC290 9:30am  | 			 | 			 | 	
-
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-60 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+30 break  | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 	BYAC290 11:00am  | 			 | 			 | 	BYAC290 11:00am  | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
@@ -3400,25 +3400,7 @@ BYAC290 6:30am  | 			 | 			 | 			 | 	BYAC290 6:30am  | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-BYAC290 4:00pm  | 			 | 			 | 	BYAC290 4:00pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 	BYAC290 4:30pm  | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
-
-		 | 	BYAC290 7:30pm  | 			 | 			 | 			 | 			 | 			 | 	
+BYAC290 3:00pm  | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 	30 break  | 			 | 			 | 			 | 	
 
@@ -3430,7 +3412,25 @@ BYAC290 4:00pm  | 			 | 			 | 	BYAC290 4:00pm  | 			 | 			 | 			 |
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
-		 | 	BYAC290 10:30pm  | 			 | 	BYAC290 10:30pm  | 			 | 			 | 			 | 	
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 	BYAC290 8:30pm  | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
+
+		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
 		 | 			 | 			 | 			 | 			 | 			 | 			 | 	
 
