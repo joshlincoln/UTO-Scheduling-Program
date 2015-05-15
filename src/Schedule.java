@@ -34,7 +34,6 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 	private float percentageMet;
 	private float quality;
 
-	
 	public float getAverageUnscheduledHours() {
 		return averageUnscheduledHours;
 	}
@@ -106,8 +105,6 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 	public void setQuality(float quality) {
 		this.quality = quality;
 	}
-
-
 
 	// constructors
 	public Schedule(ArrayList<Student> TCs, ArrayList<Office> offices) {
@@ -183,9 +180,6 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 
 		for (Office office : offices) {
 			for (Day day : Day.values()) {
-				for (Student s1 : TCs) {
-					s1.hoursPerDay = 0;
-				}
 				getLongestShift(TCs, office, day, highThresh);
 				/*
 				 * int count = 0; for (Student student1 : TCs) {
@@ -326,20 +320,20 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 		office.schedule[start][day.ordinal()] += TC.name;
 		office.schedule[end][day.ordinal()] += TC.name;
 		TC.scheduledHours += (end - start);
-		TC.hoursPerDay += (end - start);
+		TC.hoursPerDay[day.ordinal()] += (end - start);
 		TC.hoursPerWeek += (end - start);
 
 		// check for breaks
 		if (((end - start) >= 12) && (end - start) < 18) {
 			TC.schedule[(start + 7)][day.ordinal()] = "30 break";
 			TC.scheduledHours -= 1;
-			TC.hoursPerDay -= 1;
+			TC.hoursPerDay[day.ordinal()] -= 1;
 			TC.hoursPerWeek -= 1;
 
 		} else if ((end - start) >= 18) {
 			TC.schedule[(start + 9)][day.ordinal()] = "60 break";
 			TC.scheduledHours -= 2;
-			TC.hoursPerDay -= 2;
+			TC.hoursPerDay[day.ordinal()] -= 2;
 			TC.hoursPerWeek -= 2;
 		}
 
@@ -379,7 +373,6 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 				}
 				chosenTC = meetsRequirement(uniqueTCs, office, day);
 				return chosenTC;
-
 			}
 		}
 
@@ -400,7 +393,6 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 		Student chosenTC = null;
 		for (Student TC : TCs) {
 			if (TC.longestShift >= shortestShift
-					&& TC.hoursPerDay <= highThresh - TC.longestShift
 					&& TC.hoursPerWeek <= TC.desiredHours - TC.longestShift
 					&& !(TC.endTime <= office.startShift || TC.startTime >= office.endShift)) {
 			}
@@ -423,19 +415,45 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 			if (end >= endSchedule) {
 				closing = true;
 			}
-			if ((closing == true && elgibleTC.opened[day.ordinal()] == true)
-					|| (opening == true && elgibleTC.closed[day.ordinal()] == true)) {
-				continue;
-
-			} else {
-				if (workableShift >= shortestShift
-						&& elgibleTC.hoursPerWeek <= elgibleTC.desiredHours
-								- workableShift
-						&& elgibleTC.hoursPerDay <= highThresh - workableShift) {
-					chosenTC = elgibleTC;
-					return chosenTC;
+			
+			// monday, check for closed sunday
+			if (day.ordinal() == 0) {
+				if ((closing == true && elgibleTC.opened[day.ordinal()] == true)
+						|| (opening == true && elgibleTC.closed[day.ordinal()] == true) || (opening == true && elgibleTC.closed[6] == true)) {
+					continue;
 				}
-
+			} else {
+				// check for opening/close previous and next day if not sunday 
+				if (day.ordinal() < 6) {
+					if ((closing == true && elgibleTC.opened[day.ordinal()] == true)
+							|| (opening == true && elgibleTC.closed[day
+									.ordinal()] == true)
+							|| (opening == true && elgibleTC.closed[day
+									.ordinal() - 1] == true)
+							|| (closing == true && elgibleTC.opened[day
+									.ordinal() + 1] == true)) {
+						continue;
+					}
+					
+				}
+				else {
+					// sunday, check for opening monday 
+					if ((closing == true && elgibleTC.opened[day.ordinal()] == true)
+							|| (opening == true && elgibleTC.closed[day
+									.ordinal()] == true)
+							|| (opening == true && elgibleTC.closed[day
+									.ordinal() - 1] == true) || (closing == true && elgibleTC.opened[0] == true)){
+						continue;
+					}
+					
+				}
+			}
+			if (workableShift >= shortestShift
+					&& elgibleTC.hoursPerWeek <= elgibleTC.desiredHours
+							- workableShift
+					&& elgibleTC.hoursPerDay[day.ordinal()] <= highThresh - workableShift) {
+				chosenTC = elgibleTC;
+				return chosenTC;
 			}
 		}
 		return chosenTC;
@@ -449,15 +467,17 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 		getLongestOfficeShift(office, day, thresh);
 		Student chosenTC = null;
 		ComparatorChain<Student> chain = new ComparatorChain<Student>();
+		// chain.addComparator(new StartTime());
 		chain.addComparator(new CustomComparator());
 		chain.addComparator(new LongestShift());
+		Collections.sort(TCs, chain);
 		// System.out.println("Name: " + office.name + " Longest shift: " +
 		// office.longestShift + " Start time: " + office.startShift +
 		// " End time: " + office.endShift);
 		while (office.longestShift >= shortestShift) {
 			// get starting time for office
 			while (thresh >= shortestShift) {
-				if(thresh <= highThresh - 4) {
+				if (thresh <= highThresh - 4) {
 					ComparatorChain<Student> chain1 = new ComparatorChain<Student>();
 					chain1.addComparator(new StartTime());
 					chain1.addComparator(new LongestShift());
@@ -508,7 +528,7 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 		}
 		reqOut.flush();
 		reqOut.close();
-		
+
 	}
 
 	public static void printPostOfficeRequirements(ArrayList<Office> offices) {
@@ -526,6 +546,23 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 		}
 		reqOut.flush();
 		reqOut.close();
+	}
+
+	public static void printPostStudentAvailability(ArrayList<Student> TCs) {
+		File postAvail = new File("TCAvailPost.txt");
+		PrintStream postOut = null;
+		try {
+			postOut = new PrintStream(new FileOutputStream(postAvail));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		System.setOut(postOut);
+
+		for (Student TC : TCs) {
+			TC.printStudentAvailability();
+		}
+		postOut.flush();
+		postOut.close();
 	}
 
 	public void zeroParameters() {
@@ -580,6 +617,7 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 			ArrayList<Office> offices) {
 
 		printPostOfficeRequirements(offices);
+		printPostStudentAvailability(TCs);
 		int count = TCs.size();
 		for (Student TC : TCs) {
 			totalRemainingWorkableHours += TC.getRemainingHours();
@@ -607,11 +645,11 @@ public class Schedule implements Serializable, Comparator<Schedule> {
 
 		GUI.textArea_Output.append("\nPercentage of schedule met: "
 				+ percentageMet + "\n");
-		
-		GUI.textArea_Output.append("Shortest Shift: " + shortestShift +"\n");
-		GUI.textArea_Output.append("Longest Shift: " + highThresh+ "\n");
+
+		GUI.textArea_Output.append("Shortest Shift: " + shortestShift + "\n");
+		GUI.textArea_Output.append("Longest Shift: " + highThresh + "\n");
 		quality = percentageMet - averageUnscheduledHours;
-		GUI.textArea_Output.append("Quality : " + quality+"\n\n");
+		GUI.textArea_Output.append("Quality : " + quality + "\n\n");
 
 	}
 

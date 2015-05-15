@@ -15,9 +15,7 @@ import javax.swing.ImageIcon;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 
-import org.apache.commons.collections4.comparators.ComparatorChain;
 import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFColor;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -28,7 +26,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -45,10 +42,6 @@ import javax.swing.JTextArea;
 import javax.swing.JScrollPane;
 import javax.swing.UIManager;
 
-import java.awt.Choice;
-
-import javax.swing.JOptionPane;
-import javax.swing.JDialog;
 
 public class GUI {
 
@@ -155,8 +148,7 @@ public class GUI {
 				availChooser
 						.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 				availChooser
-						.setCurrentDirectory(new File(
-								"C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles"));
+						.setCurrentDirectory(new File("user.dir"));
 				int returnValue = availChooser.showOpenDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					TCs = null;
@@ -188,8 +180,7 @@ public class GUI {
 				JFileChooser reqChooser = new JFileChooser();
 				reqChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 				reqChooser
-						.setCurrentDirectory(new File(
-								"C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles"));
+						.setCurrentDirectory(new File("user.dir"));
 				int returnValue = reqChooser.showOpenDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					Offices = null;
@@ -217,8 +208,7 @@ public class GUI {
 			public void actionPerformed(ActionEvent reqClicked) {
 				JFileChooser configChooser = new JFileChooser();
 				configChooser
-						.setCurrentDirectory(new File(
-								"C:/Users/Josh/Dropbox/Projects/Scheduling Program/ExcelFiles"));
+						.setCurrentDirectory(new File("user.dir"));
 				int returnValue = configChooser.showOpenDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					File selectedFile = configChooser.getSelectedFile();
@@ -281,7 +271,7 @@ public class GUI {
 		textField_longestShift.setBounds(175, 262, 65, 28);
 		panel1.add(textField_longestShift);
 		textField_longestShift.setColumns(10);
-		textField_longestShift.setText("10");
+		textField_longestShift.setText("9");
 
 		// shortest shift parameter components
 		JLabel lblShortestShifthours = new JLabel("Shortest Shift (h.m):");
@@ -355,7 +345,7 @@ public class GUI {
 		JLabel backgroundImage = new JLabel("");
 		backgroundImage
 				.setIcon(new ImageIcon(
-						"C:\\Users\\Josh\\Dropbox\\Projects\\Scheduling Program\\GUIbackground.png"));
+						"GUIbackground.png"));
 		backgroundImage.setBounds(0, -24, 649, 511);
 		panel1.add(backgroundImage);
 	}
@@ -381,8 +371,8 @@ public class GUI {
 			ArrayList<Office> offices, ArrayList<Student> tcs) {
 		ArrayList<Schedule> schedules = new ArrayList<Schedule>();
 		int count = 0;
-		for (float i = 4; i <= 8; i++) {
-			for (int j = 12; j <= 20; j++) {
+		for (float i = 4; i <= 8; i += .5) {
+			for (int j = 12; j <= 20; j += .5) {
 				count++;
 				textArea_Output.append("trying new schedule : " + count);
 				try {

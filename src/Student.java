@@ -1,13 +1,6 @@
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintStream;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
 
 public class Student implements Comparator<Student>, Comparable<Student>,
 		Serializable {
@@ -40,7 +33,9 @@ public class Student implements Comparator<Student>, Comparable<Student>,
 	int endTime;
 	int maxHours;
 	int scheduledHours;
-	int hoursPerDay;
+	int [] hoursPerDay = {0, 0, 0, 0, 0, 0, 0,};
+	float workableHours;
+	float remainingHours;
 	int hoursPerWeek;
 	boolean scheduled;
 	boolean[] closed = new boolean[7];
@@ -63,8 +58,9 @@ public class Student implements Comparator<Student>, Comparable<Student>,
 		experience = 0;
 		maxHours = 50;
 		scheduledHours = 0;
-		hoursPerDay = 0;
 		endTime = 0;
+		workableHours = 0;
+		remainingHours = 0;
 		scheduled = false;
 	}
 
@@ -145,14 +141,12 @@ public class Student implements Comparator<Student>, Comparable<Student>,
 	// methods
 
 	public float getWorkableHours() {
-		float workableHours = 0;
 		return workableHours = desiredHours / 2;
 
 	}
-	
+
 	public float getRemainingHours() {
-		float remainingHours = 0;
-		return remainingHours = (desiredHours - scheduledHours)/2;
+		return remainingHours = (desiredHours - scheduledHours) / 2;
 	}
 
 	public void printStudent() {
@@ -168,8 +162,9 @@ public class Student implements Comparator<Student>, Comparable<Student>,
 	}
 
 	public void printStudentAvailability() {
-		System.out.println("Student : " + name);
-		for (int i = 0; i < shiftAvail.size(); i++) {
+		System.out.println("Student : " + name + " " + (desiredHours)/2 + " / " + (scheduledHours)/2);
+		for (int i = 0; i < shiftAvail.size() - 2; i++) {
+			System.out.print(timeSlot[i] + "\t | ");
 			for (int j = 0; j < shiftAvail.get(0).size(); j++) {
 				System.out.print(shiftAvail.get(i).get(j) + " | ");
 			}
@@ -210,6 +205,7 @@ public class Student implements Comparator<Student>, Comparable<Student>,
 		System.out.println("Desired Hours: " + desiredHours / 2 + "\n");
 		System.out.println("Scheduled Hours: " + scheduledHours / 2 + "\n");
 		for (int i = 0; i < 37; i++) {
+
 			for (int j = 0; j < 7; j++) {
 				if (finalSchedule[i][j] != null) {
 					System.out.print(finalSchedule[i][j] + "  | \t");

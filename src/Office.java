@@ -1,7 +1,5 @@
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 
 public class Office implements Serializable {
@@ -63,7 +61,8 @@ public class Office implements Serializable {
 	}
 	public void printOffice() {
 		System.out.println("Office name: " + name);
-		for(int i = 0; i < officeReq.size(); i++) {
+		for(int i = 0; i < officeReq.size()-2; i++) {
+			System.out.print(timeSlot[i]+ "\t | ");
 			for(int j = 0; j < officeReq.get(0).size(); j++) {		
 				System.out.print(officeReq.get(i).get(j) + " | ");
 			}
